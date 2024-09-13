@@ -1,3 +1,7 @@
+# HTML-CSS-JS Projects
+
+Here is a collection of all my HTML-CSS-JS projects, along with a brief description and live demo links for each.
+
 1. **Article Preview Component** - A responsive article preview card with social media share functionality.  
    [Live Demo](https://bejewelled-cassata-4dd057.netlify.app)
 

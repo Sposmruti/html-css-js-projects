@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rating.css">
+</head>
+<body>
+    <div class="interactive">
+        <div class="rating-state">
+            <div class="star">
+                <img src="icon/icon-star.svg" alt="icon-star" class="icon-star">
+            </div>
+           <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+            </p>
+            <div class="rating-buttons">
+                <button class="rating-btn">1</button>
+                <button class="rating-btn">2</button>
+                <button class="rating-btn">3</button>
+                <button class="rating-btn">4</button>
+                <button class="rating-btn">5</button>
+            </div>
+          <button class="submit-btn">SUBMIT</button>
+        </div>
+        <div class="thankyou-state">
+            <img src="icon/illustration-thank-you.svg" alt="illustration-thank-you" class="thankyou">
+            <div class="review">
+                <p class="selected-rating">You selected <span id="selected-rating"></span> out of 5</p>
+           </div>
+           <h1>Thank you!</h1>
+           <p>
+              We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+           </p>
+        </div>
+    </div>
+    <script src="rating.js"></script>
+</body>
+</html>
